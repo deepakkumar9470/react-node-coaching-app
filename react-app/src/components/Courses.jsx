@@ -9,7 +9,6 @@ const Courses = () => {
   const fetchCourses = async () =>{
        try {
             const res= await axios.get('http://localhost:5000/api/course/getcourse')
-            console.log(res.data)
             setCourses(res.data.allcourses)
        } catch (error) {
             console.log(error)
