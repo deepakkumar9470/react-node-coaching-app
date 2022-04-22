@@ -30,7 +30,7 @@ const Home = () => {
              alt="couser" />
 
         </div>
-        <h1 className="alert alert-info text-capitalize p-2 m-5">Courses...</h1>
+        <h1 className="alert alert-info text-capitalize p-2 m-5">Coachings List...</h1>
 
            {
                 coachings.map((c)=>{

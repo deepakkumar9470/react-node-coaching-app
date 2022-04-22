@@ -16,8 +16,7 @@ const CourseDetails = ({course}) => {
                         <h2>{course.strength}</h2>
                         <h2>{course.test_series}</h2>
                     </div>
-              </div>
-              {id}
+              </div>   
         </div>
   )
 }

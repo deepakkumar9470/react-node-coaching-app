@@ -34,9 +34,9 @@ const AddCoaching = () => {
           setPhoto('')
           setTeacherdetails('')
 
-          const res = await axios.post(`http://localhost:5000/api/coaching/create`, formData)
+          const res = await axios.post(`http://localhost:5000/api/coaching/create`, newcoaching)
           console.log(res)
-          console.log('Data addes successfully..') 
+          alert('Data addes successfully..') 
     };
 
   return (
